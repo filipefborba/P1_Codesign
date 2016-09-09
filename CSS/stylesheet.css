@@ -19,10 +19,9 @@ a:hover {
 }
 
 .menuitem {
-    border: 2px;
-    width: 140px;
-    height: 30px;
-    padding: 30px;
+    width: 8em;
+    height: 3em;
+    margin: 3em;
     text-align: center;
     font-family: Inconsolata;
     float: left;
@@ -42,20 +41,20 @@ main {
 
 body {
   background: url("../Imagens/background.jpeg");
+  max-width: 100%;
 }
 
 .aboutbackground {
-  background: url("../Imagens/profileimage.jpeg") no-repeat center center fixed;
+  background: url("../Imagens/profileimage.jpeg") no-repeat top;
   background-size: cover;
 }
 
 .portrait {
-  padding: 30px;
+  padding: 0em 1em 1em 1em;
   display: block;
   margin: 0 auto;
   width: 320px;
   height: auto;
-  border: 10px;
   border-radius: 60%;
 }
 
@@ -82,16 +81,18 @@ p {
   font-size: 1.5em;
 }
 
-.skillstext {
-  margin: 2em 25em 4em 25em;
-  padding: 2em 2em 2em 2em;
+.skillstable {
+  margin: 2em 15em 4em 15em;
+  padding: 1em 1em 1em 1em;
   background-color: #152233;
-  border-radius: 2em;
+  border-radius: 1em;
 }
 
 .projectimage {
   width: 300px;
   height: auto;
+  max-width: 300px;
+  max-height: 175px;
 }
 
 footer {
