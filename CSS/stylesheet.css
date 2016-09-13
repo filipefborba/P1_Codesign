@@ -20,7 +20,6 @@ a:hover {
 
 .menuitem {
     width: 8em;
-    height: 3em;
     margin: 3em;
     text-align: center;
     font-family: Inconsolata;
@@ -33,6 +32,12 @@ a:hover {
   height: 50px;
   padding: 25px;
   float: right;
+}
+
+.backarrow {
+  height: 3em;
+  width: auto;
+  padding: 0em 0em 3em 0em;
 }
 
 main {
@@ -96,12 +101,9 @@ p {
 }
 
 footer {
-  bottom: 0.7em;
-  position: absolute;
-}
-
-.copyright p {
-    margin: 15px 5px;
+  bottom: 0;
+  position: fixed;
+  margin: 0 0 1em 0;
 }
 
 .bold {
