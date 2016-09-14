@@ -44,7 +44,8 @@ main {
 }
 
 body {
-  background: url("../Imagens/background.jpeg");
+  background: url("../Imagens/background.jpeg") no-repeat;
+  background-attachment: fixed;
   max-width: 100%;
 }
 
@@ -88,21 +89,30 @@ p {
 .skillstable {
   margin: 2em 15em 4em 15em;
   padding: 1em 1em 1em 1em;
+  width: 50em;
+  height: auto;
   background-color: #152233;
   border-radius: 1em;
 }
 
 .projectimage {
-  width: 300px;
-  height: auto;
-  max-width: 300px;
-  max-height: 175px;
+  width: 16.5%;
+  height: 150px;
+  padding: 1em 1em 0em 1em;
 }
 
 .projecttext {
-  width: 23.5%;
+  width: 19.25%;
   font-size: 1.5em;
+  padding: 1em 0em 1em 0em;
   text-align: center;
+  float: left;
+}
+
+.projectdescription {
+  display: inline-block;
+  width: 15%;
+  padding: 1em 2em 0em 1.4em;
   float: left;
 }
 
